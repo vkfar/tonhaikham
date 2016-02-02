@@ -1,0 +1,69 @@
+/* 
+    Document   : default
+    Created on : Mar 14, 2014, 11:48:58 PM
+    Author     : lexjeed
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+#box_table_detail{
+    /*margin-bottom: 20px;*/
+  background-color: white;
+    padding: 10px;
+    text-align: center;
+    display: none;
+   
+}
+.navbar{
+    margin: 0px;
+}
+#btn_close_table_box{
+    display: none;
+    cursor: pointer;
+}
+#btn_close_table_box a{
+     color: #990000;
+     font-weight: bolder;
+}
+.btn_menu{
+    cursor: pointer;
+}
+.btn_menu_item{
+    background-color: #222222;
+    border: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 12px;
+    color: white;
+}
+
+.btn_menu_item img{
+    width: 100px;
+    height: 80px
+}
+
+.btn_menu_item_disable{
+    background-color: #F2DEDE;
+    border: 1px solid #CCCCCC;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 12px;
+    color: white;
+}
+.btn_menu_item_disable img{
+    width: 100px;
+    height: 80px
+}
+
+.pricecolor{
+    color: red;
+}
+.txt_item_q{
+    width: 40px;
+}
+.remove_item,.item_q{
+    cursor: pointer;
+}
